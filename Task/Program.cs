@@ -14,9 +14,9 @@ namespace Task
             double k = Convert.ToDouble(Console.ReadLine());
             double b = Convert.ToDouble(Console.ReadLine());
 
-            Linear_equation linear_Equation = new Linear_equation(k,b);
+            Linear_equation linear_Equation = new Linear_equation(k, b);
             Console.WriteLine(linear_Equation.Root());
-            Console.ReadKey();  
+            Console.ReadKey();
         }
     }
 }
